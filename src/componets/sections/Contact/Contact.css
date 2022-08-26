@@ -1,0 +1,36 @@
+#contact-route{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+   
+    display: flex;
+    height: 110vh;
+    flex-wrap: wrap;
+  
+    position: relative;
+    top: 10vh;
+    overflow: hidden;
+}
+textarea{
+    position: relative;
+    left: 45px;
+}
+.btn{
+    position: relative;
+    top: 3rem;
+    right: 5rem;
+}
+
+@media screen and (max-width:600px) {
+    
+
+    
+    .btn{
+        margin-top: 10px;
+        margin-left: -10px;
+
+    }
+    
+}

@@ -1,0 +1,57 @@
+#projects-route{
+    display: flex;
+
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
+    
+
+}
+
+.projects-container{
+    
+    height: 100vh;
+    display: flex;
+    position: relative;
+   
+    
+    
+    width: 1000px;
+    
+    flex-wrap: wrap;
+    
+    
+}
+.projects-tag{
+    
+    position: relative;
+    top: 20px;
+}
+.project-card{
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
+    
+    margin: 5px 0px 30px 5em;
+    width: 20rem;
+    height:max-content;
+
+    
+}
+.link{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+@media screen and (max-width:600px) {
+    .projects-container{
+        display: inline;
+        position: relative;
+        right: 40px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    
+}
