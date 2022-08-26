@@ -1,9 +1,14 @@
-/* #home-route{
+#home-route{
   width: 100vw;
   overflow: hidden;
 
   
 
+}
+.home-left{
+  
+  position: relative;
+  top: 5rem;
 }
 .container{
   
@@ -12,36 +17,27 @@
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  border: 5px solid black;
+  
   
   height: 100vh;
   
 
 }
-.left-container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 
-.container{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-
-}
+ 
 
 .image-container{
+  
  
   min-width: 400px;
   
-}
+} 
 
 
 .image{
+  position: relative;
+  
   flex-wrap: wrap;
  
   margin: 10em;
@@ -77,8 +73,18 @@ p{
 .icons{
   position: relative;
   bottom: 8rem;
+  
 }
 .icon:hover{
   transform: scale(1.5);
 
+}
+
+@media screen and (max-width:600px) {
+  .image{
+    position: relative;
+    right: 5rem;
+  }
+
+  
 }
